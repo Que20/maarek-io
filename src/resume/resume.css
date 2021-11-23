@@ -233,14 +233,14 @@ details > summary:first-of-type {
     .header-left {
         margin-bottom: 20px;
     }
-    .profile {
+    .profile-resume {
         width: 20%;
         height: 20%;
         border: 1px solid white;
     }
 }
 @media print {
-    .profile {
+    .profile-resume {
         width: 60px;
         height: 60px;
     }
