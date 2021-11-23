@@ -3,6 +3,8 @@ import MainMenu from '../components/menu';
 import Parser from 'rss-parser';
 import './home.css';
 import 'semantic-ui-css/semantic.min.css';
+import { Button, Icon } from 'semantic-ui-react';
+import { Link } from "react-router-dom";
 
 class Home extends Component {
 
@@ -45,8 +47,9 @@ class Home extends Component {
                                 <br /><br />
                                 Let me develop the app of your dreams 🧚🏻
                             </p>
-                            <a class="ui label" href="./resume/index.html"><i class="arrow right icon"></i>More about my work and my experience</a>
-                                
+                            <Link to='/resume'>
+                                <Button content='More about my work and my experience' icon='right arrow' labelPosition='right' />
+                            </Link>
                         </div>
                     </div>
                 </div>
