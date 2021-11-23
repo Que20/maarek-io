@@ -1,0 +1,268 @@
+.container {
+    /* margin-top: 30px; */
+    min-width: 100px;
+}
+
+/*HEADER*/
+
+.resume-header {
+    margin-bottom: 30px;
+}
+.name {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+.title {
+    font-size: 25px;
+}
+.info {
+    font-size: 15px;
+    text-align: right;
+}
+.linkedIn {
+    margin-right: 10px;
+}
+.last-update {
+    color: gray;
+    font-size: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.social {
+    font-size: 30px;
+    color: black;
+}
+.social a {
+    color: black;
+    margin-right: 5px;
+}
+.social a:hover {
+    text-decoration: none;
+}
+
+.header-left {
+    float:left;
+    margin-right:30px;
+}
+.header-right {
+    float:left;
+}
+.real-info {
+    display: none;
+}
+
+/*SECTIONS*/
+
+/* .section {
+    font-size: 25px;
+    margin-bottom: 30px;
+} */
+
+/*JOBS*/
+details > summary:first-of-type {
+    list-style-type: none;
+}
+.job {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.job-title {
+    color: gray;
+    font-weight: bold;
+}
+.company-name {
+    text-decoration: underline;
+}
+.employment-period {
+    color: gray;
+    font-size: 12px;
+}
+.intro-text {
+    margin-bottom: 0px;
+}
+.job-description {
+
+}
+.current {
+    background-color: #ffdede;
+    border-radius: 10px;
+    padding-left: 4px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+    color: #ff6969;
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/*TAGS*/
+
+.tag-list {
+    list-style: none;
+    margin: 0;
+    overflow: hidden; 
+    padding: 0;
+    margin-bottom: 10px;
+}
+.tag-list li {
+    float: left;
+    margin-bottom: 10px;
+}
+.tag {
+    background-color: #ebebeb;
+    color: #595959;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+/*PUBLICATIONS*/
+
+.publication {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.article-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.published-on {
+    color: gray;
+    font-size: 12px;
+}
+.article-description { }
+.read-more a {
+    color: #4287f5;
+}
+.more-publications a {
+    color: #4287f5;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+/*SKILLS*/
+
+.skill {
+    margin-left: 30px;
+}
+.skills-field {
+    font-weight: bold;
+}
+.skills {
+    margin-left: 30px;
+}
+
+/*EDUCATION*/
+
+.education {
+    margin-left: 30px;
+}
+.year-degree {
+    font-weight: bold;
+    font-size: 18px;
+}
+.school-name {
+    color: gray;
+    margin-left: 20px;
+}
+.degree-info {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.languages {
+    margin-left: 30px;
+}
+
+/*SIDE PROJECT*/
+
+.side-project-title {
+    font-weight: bold;
+}
+
+.side-project-description {
+    margin-bottom: 30px;
+}
+
+.copyright {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media screen {
+    body {
+           margin: 0;
+        padding: 0;
+    }
+}
+@media only screen and (max-device-width: 768px) {
+    .info {
+        margin-top: 20px;
+        text-align: left;
+    }
+    .last-update {
+        text-align: left;
+    }
+    .job {
+        margin-left: 0px;
+    }
+    .skill {
+        margin-left: 0px;
+    }
+    .education {
+        margin-left: 0px;
+    }
+    .school-name {
+        margin-left: 0px;
+    }
+    .degree-info {
+        margin-left: 0px;
+    }
+    .languages {
+        margin-left: 0px;
+    }
+    .header-left {
+        margin-bottom: 20px;
+    }
+    .profile {
+        width: 20%;
+        height: 20%;
+        border: 1px solid white;
+    }
+}
+@media print {
+    .profile {
+        width: 60px;
+        height: 60px;
+    }
+    .header-left {
+        margin-right:10px;
+    }
+    .real-info {
+        display: block;
+    }
+    .no-info {
+        display: none;
+    }
+    .no-print, .no-print * {
+        display: none !important;
+    }
+    .tag {
+        background-color: #ebebeb !important;
+        color: #595959 !important;
+        -webkit-print-color-adjust: exact;
+    }
+    .newpage {
+        padding-top: 30px;
+        page-break-before: always;
+    }
+}
