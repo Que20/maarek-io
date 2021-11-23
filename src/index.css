@@ -21,9 +21,11 @@ code {
 
 .waves {
     background-image: url('./svg/separator.svg');
+    margin-bottom: -10px;
 }
 
 .waves2 {
     background-image: url('./svg/separator.svg');
     transform: rotate(180deg);
+    margin-top: -10px;
 }
