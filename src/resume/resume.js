@@ -1,9 +1,9 @@
-import './resume.css';
 import 'semantic-ui-css/semantic.min.css';
 
 import React, { Component } from 'react'
 import MainMenu from '../components/menu';
 import { Button, Icon } from 'semantic-ui-react';
+import './resume.css';
 
 const data = require('./data.json').data;
 
@@ -25,7 +25,7 @@ class Resume extends Component {
                     <div className="row">
                         <div className="col-md-8">
                             <div className="header-left">
-                                <img src="https://www.gravatar.com/avatar/c79d64c623fe657519e9ee790bfc7865?s=400" className="profile-resume" alt="my profile" />
+                                <img src="https://www.gravatar.com/avatar/c79d64c623fe657519e9ee790bfc7865?s=400" className='profile-pic' alt="my profile" />
                             </div>
                             <div className="header-right">
                                 <h1 className="name">

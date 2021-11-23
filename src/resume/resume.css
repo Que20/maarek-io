@@ -52,6 +52,13 @@
     display: none;
 }
 
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border: 3   px solid white;
+}
 /*SECTIONS*/
 
 /* .section {
@@ -205,6 +212,10 @@ details > summary:first-of-type {
     }
 }
 @media only screen and (max-device-width: 768px) {
+    .profile-pic {
+        width: 60px;
+        height: 60px;
+    }
     .info {
         margin-top: 20px;
         text-align: left;
@@ -233,14 +244,9 @@ details > summary:first-of-type {
     .header-left {
         margin-bottom: 20px;
     }
-    .profile-resume {
-        width: 20%;
-        height: 20%;
-        border: 1px solid white;
-    }
 }
 @media print {
-    .profile-resume {
+    .profile-pic {
         width: 60px;
         height: 60px;
     }
