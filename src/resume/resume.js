@@ -4,6 +4,7 @@ import React, { Component } from 'react'
 import MainMenu from '../components/menu';
 import { Button, Icon } from 'semantic-ui-react';
 import './resume.css';
+import 'semantic-ui-css/semantic.min.css';
 
 const data = require('./data.json').data;
 
@@ -15,15 +16,15 @@ class Resume extends Component {
     render() {
         return (
             <div>
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous" />
+                {/* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous" /> */}
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossOrigin="anonymous" />
                 <div className="no-print">
                     <MainMenu activeItem='resume' />
                 </div>
-                <div className="container">
+                <div className="resume-container">
                 <div className="resume-header">
-                    <div className="row">
-                        <div className="col-md-8">
+                    <div className="ui two column stackable grid">
+                        <div className="column right-float">
                             <div className="header-left">
                                 <img src="https://www.gravatar.com/avatar/c79d64c623fe657519e9ee790bfc7865?s=400" className='profile-pic' alt="my profile" />
                             </div>
@@ -56,7 +57,7 @@ class Resume extends Component {
                             </div>
                             <div style={{"clear":"both"}}></div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="column">
                             <div className="last-update">
                                 <div className="no-print">
                                     Last update : Oct. 27 2021
@@ -118,6 +119,7 @@ class Resume extends Component {
                                             )
                                         })}
                                     </ul>
+                                    <br />
                                 </div>
                             </div>
                         )
