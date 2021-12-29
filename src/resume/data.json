@@ -1,206 +1,208 @@
-{"data": [
-    {
-        "img": "ada.png",
-        "img_height": 18,
-        "title": "Teacher",
-        "company": "Ada Tech School",
-        "contract": "Freelance",
-        "dates": {
-            "from": "2021",
-            "to": "now"
+{
+    "data": [
+        {
+            "img": "ada.png",
+            "img_height": 18,
+            "title": "Teacher",
+            "company": "Ada Tech School",
+            "contract": "Freelance",
+            "dates": {
+                "from": "2021",
+                "to": "now"
+            },
+            "location": "Paris, France",
+            "mark_current": true,
+            "intro": "Ada is the first coding school in Europe with a feminist and inclusive culture, open to all profiles. Their education system is based on the Motessori theory.",
+            "missions": [
+                {
+                    "task": "Teaching and supervising students in an inculsive environment.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Creation of educational content.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Teaching multiple languages, tools and technologies, from backend to frontend and everything that realtes with the software environment.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Personal guidance over softskill and career management.",
+                    "subtasks": []
+                }
+            ],
+            "tags":[]
         },
-        "location": "Paris, France",
-        "mark_current": true,
-        "intro": "Ada is the first coding school in Europe with a feminist and inclusive culture, open to all profiles. Their education system is based on the Motessori theory.",
-        "missions": [
-            {
-                "task": "Teaching and supervising students in an inculsive environment.",
-                "subtasks": []
+        {
+            "img": "fbx.png",
+            "img_height": 15,
+            "title": "Software Engineer",
+            "company": "Freebox",
+            "contract": "Permanent contract",
+            "dates": {
+                "from": "2019",
+                "to": "now"
             },
-            {
-                "task": "Creation of educational content.",
-                "subtasks": []
-            },
-            {
-                "task": "Teaching multiple languages, tools and technologies, from backend to frontend and everything that realtes with the software environment.",
-                "subtasks": []
-            },
-            {
-                "task": "Personal guidance over softskill and career management.",
-                "subtasks": []
-            }
-        ],
-        "tags":[]
-    },
-    {
-        "img": "fbx.png",
-        "img_height": 15,
-        "title": "Software Engineer",
-        "company": "Freebox",
-        "contract": "Permanent contract",
-        "dates": {
-            "from": "2019",
-            "to": "now"
+            "location": "Paris, France",
+            "mark_current": true,
+            "intro": "",
+            "missions": [
+                {
+                    "task": "Built and successfully deployed a new iOS app.",
+                    "subtasks": [
+                        "Development of an iOS app from scratch.",
+                        "Creation of a product and tech roadmap.",
+                        "Working with other developers and designers to develop product+tech oriented features around Home security system management and smart home monitoring.",
+                        "Reviewed design requirements and wireframes for technical feasibility."
+                    ]
+                },
+                {
+                    "task": "Development of Swift Packages for internal use (& redaction of documentation).",
+                    "subtasks": [
+                        "A UI components packages (UIKit & SwiftUI) shared between apps.",
+                        "A network abstraction stack packaged."
+                    ]
+                },
+                {
+                    "task": "Development and maintenance of 4 existing iOS apps.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Setup a testing and a continuous integration environment with Jenkins & Fastlane for multiple projects including mobile iOS and Android Apps to improve products quality.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Development of a NodeJS server side application.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Working with IOT standards for security systems.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Research and development over Augmented Reality framework for iOS.",
+                    "subtasks": []
+                }
+            ],
+            "tags":["Swift", "IOT", "Security", "ARKit", "SmartHome", "Javascript"]
         },
-        "location": "Paris, France",
-        "mark_current": true,
-        "intro": "",
-        "missions": [
-            {
-                "task": "Built and successfully deployed a new iOS app.",
-                "subtasks": [
-                    "Development of an iOS app from scratch.",
-                    "Creation of a product and tech roadmap.",
-                    "Working with other developers and designers to develop product+tech oriented features around Home security system management and smart home monitoring.",
-                    "Reviewed design requirements and wireframes for technical feasibility."
-                ]
+        {
+            "img": "lbc.png",
+            "img_height": 20,
+            "title": "iOS developer",
+            "company": "Leboncoin.fr",
+            "contract": "Permanent contract",
+            "dates": {
+                "from": "2014",
+                "to": "2019"
             },
-            {
-                "task": "Development of Swift Packages for internal use (& redaction of documentation).",
-                "subtasks": [
-                    "A UI components packages (UIKit & SwiftUI) shared between apps.",
-                    "A network abstraction stack packaged."
-                ]
-            },
-            {
-                "task": "Development and maintenance of 4 existing iOS apps.",
-                "subtasks": []
-            },
-            {
-                "task": "Setup a testing and a continuous integration environment with Jenkins & Fastlane for multiple projects including mobile iOS and Android Apps to improve products quality.",
-                "subtasks": []
-            },
-            {
-                "task": "Development of a NodeJS server side application.",
-                "subtasks": []
-            },
-            {
-                "task": "Working with IOT standards for security systems.",
-                "subtasks": []
-            },
-            {
-                "task": "Research and development over Augmented Reality framework for iOS.",
-                "subtasks": []
-            }
-        ],
-        "tags":["Swift", "IOT", "Security", "ARKit", "SmartHome", "Javascript"]
-    },
-    {
-        "img": "lbc.png",
-        "img_height": 20,
-        "title": "iOS developer",
-        "company": "Leboncoin.fr",
-        "contract": "Permanent contract",
-        "dates": {
-            "from": "2014",
-            "to": "2019"
+            "location": "Paris, France",
+            "mark_current": false,
+            "intro": "",
+            "missions": [
+                {
+                    "task": "Development and maintenance of the Leboncoin iOS products and apps.",
+                    "subtasks": [
+                        "Development of unit and UI tests for the Leboncoin iOS app.",
+                        "Development of distributed iOS Swift frameworks and static librairies (for internal and external usage).",
+                        "Modularized the core Leboncoin app's features."
+                    ]
+                },
+                {
+                    "task": "Setting up quality control, code review, continuous integration and continuous delivery solutions.",
+                    "subtasks": [
+                        "Working with Gerrit code-review solution for code review process.",
+                        "Created a continous delivery flow with Fastlane.",
+                        "Built a CI environment with Jenkins."
+                    ]
+                },
+                {
+                    "task": "Conducting user tests and designing user centric features.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Working with scrum and agile standards.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Working in multidisciplinary teams.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Working in a T-Shape environment:",
+                    "subtasks": [
+                        "Development of web micro service in Go.",
+                        "Development of Android app's features with Kotlin."
+                    ]
+                }
+            ],
+            "tags":["iOS App", "Obj-C", "Swift", "UX+UI", "Jenkins","Fastlane","Go","Gerrit","Micro-services","Agile","TestFlight","Gym"]
         },
-        "location": "Paris, France",
-        "mark_current": false,
-        "intro": "",
-        "missions": [
-            {
-                "task": "Development and maintenance of the Leboncoin iOS products and apps.",
-                "subtasks": [
-                    "Development of unit and UI tests for the Leboncoin iOS app.",
-                    "Development of distributed iOS Swift frameworks and static librairies (for internal and external usage).",
-                    "Modularized the core Leboncoin app's features."
-                ]
+        {
+            "img": "egos.jpg",
+            "img_height": 20,
+            "title": "Developer",
+            "company": "Egos Ventures",
+            "contract": "Internship",
+            "dates": {
+                "from": "2014",
+                "to": "2014"
             },
-            {
-                "task": "Setting up quality control, code review, continuous integration and continuous delivery solutions.",
-                "subtasks": [
-                    "Working with Gerrit code-review solution for code review process.",
-                    "Created a continous delivery flow with Fastlane.",
-                    "Built a CI environment with Jenkins."
-                ]
-            },
-            {
-                "task": "Conducting user tests and designing user centric features.",
-                "subtasks": []
-            },
-            {
-                "task": "Working with scrum and agile standards.",
-                "subtasks": []
-            },
-            {
-                "task": "Working in multidisciplinary teams.",
-                "subtasks": []
-            },
-            {
-                "task": "Working in a T-Shape environment:",
-                "subtasks": [
-                    "Development of web micro service in Go.",
-                    "Development of Android app's features with Kotlin."
-                ]
-            }
-        ],
-        "tags":["iOS App", "Obj-C", "Swift", "UX+UI", "Jenkins","Fastlane","Go","Gerrit","Micro-services","Agile","TestFlight","Gym"]
-    },
-    {
-        "img": "egos.jpg",
-        "img_height": 20,
-        "title": "Developer",
-        "company": "Egos Ventures",
-        "contract": "Internship",
-        "dates": {
-            "from": "2014",
-            "to": "2014"
+            "location": "Atlanta, GA, USA",
+            "mark_current": false,
+            "intro": "",
+            "missions": [
+                {
+                    "task": "Architecture and model design for services and products.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Sound and image processing.",
+                    "subtasks": []
+                },
+                {
+                    "task": "iOS and Android apps development (native).",
+                    "subtasks": []
+                },
+                {
+                    "task": "Development of unit test framework for internal use and development of unit tests for the in-productions solutions.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Added UI Tests for apps.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Gobal quality improvements for the in-house software, services and apps.",
+                    "subtasks": []
+                }
+            ],
+            "tags":["C/C++","Computer vision","Sound Detection","Mobile App develpoment","Swift+iOS","Java+Android"]
         },
-        "location": "Atlanta, GA, USA",
-        "mark_current": false,
-        "intro": "",
-        "missions": [
-            {
-                "task": "Architecture and model design for services and products.",
-                "subtasks": []
+        {
+            "img": "",
+            "img_height": 0,
+            "title": "Java developer",
+            "company": "ThinkMyApp",
+            "contract": "Internship",
+            "dates": {
+                "from": "2013",
+                "to": "2013"
             },
-            {
-                "task": "Sound and image processing.",
-                "subtasks": []
-            },
-            {
-                "task": "iOS and Android apps development (native).",
-                "subtasks": []
-            },
-            {
-                "task": "Development of unit test framework for internal use and development of unit tests for the in-productions solutions.",
-                "subtasks": []
-            },
-            {
-                "task": "Added UI Tests for apps.",
-                "subtasks": []
-            },
-            {
-                "task": "Gobal quality improvements for the in-house software, services and apps.",
-                "subtasks": []
-            }
-        ],
-        "tags":["C/C++","Computer vision","Sound Detection","Mobile App develpoment","Swift+iOS","Java+Android"]
-    },
-    {
-        "img": "",
-        "img_height": 0,
-        "title": "Java developer",
-        "company": "ThinkMyApp",
-        "contract": "Internship",
-        "dates": {
-            "from": "2013",
-            "to": "2013"
-        },
-        "location": "Rueil Malmaison, France",
-        "mark_current": false,
-        "intro": "",
-        "missions": [
-            {
-                "task": "Development of parsing algorithms loaded on servers that treat big amount of data.",
-                "subtasks": []
-            },
-            {
-                "task": "Development of java software for external use.",
-                "subtasks": []
-            }
-        ],
-        "tags":["Java", "Swing", "Debian", "Perl", "Big-Data"]
-    }
-]}
+            "location": "Rueil Malmaison, France",
+            "mark_current": false,
+            "intro": "",
+            "missions": [
+                {
+                    "task": "Development of parsing algorithms loaded on servers that treat big amount of data.",
+                    "subtasks": []
+                },
+                {
+                    "task": "Development of java software for external use.",
+                    "subtasks": []
+                }
+            ],
+            "tags":["Java", "Swing", "Debian", "Perl", "Big-Data"]
+        }
+    ]
+}
