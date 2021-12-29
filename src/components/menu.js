@@ -29,6 +29,12 @@ class MainMenu extends Component {
                 active={activeItem === 'resume'}
                 />
             </Link>
+            <Link to='/blog'>
+                <Menu.Item
+                name='blog'
+                active={activeItem === 'blog'}
+                />
+            </Link>
         </Menu>
         )
     }

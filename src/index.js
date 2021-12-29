@@ -9,6 +9,7 @@ import {
     Routes,
     Route
 } from "react-router-dom";
+import Blog from './blog/blog';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.render(
         <Routes>
             <Route index element={<Home />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="/blog" element={<Blog />} />
         </Routes>
     </HashRouter>
   </React.StrictMode>,
