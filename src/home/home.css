@@ -1,7 +1,3 @@
-:root {
-    --primary: #62757B;
-    --secondary: rgb(239,239,239);
-}
 .text-primary-color {
     color: var(--primary);
 }

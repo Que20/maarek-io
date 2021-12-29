@@ -11,6 +11,11 @@ code {
     monospace;
 } */
 
+:root {
+    --primary: #62757B;
+    --secondary: rgb(239,239,239);
+}
+
 .separator {
     aspect-ratio: 1000/300;
     width: 100%;
