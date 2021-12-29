@@ -1,0 +1,36 @@
+
+@media (min-width: 576px) {
+    .blog-container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .blog-container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .blog-container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .blog-container {
+        max-width: 1140px;
+    }
+}
+
+.blog-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h3 {
+    font-weight: normal;
+}
