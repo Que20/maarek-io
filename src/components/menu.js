@@ -13,6 +13,12 @@ class MainMenu extends Component {
         <Menu secondary>
             <Link to='/'>
                 <Menu.Item
+                content='maarek.io'
+                active={false}
+                />
+            </Link>
+            <Link to='/'>
+                <Menu.Item
                 name='home'
                 active={activeItem === 'home'}
                 />
