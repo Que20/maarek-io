@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './home/home';
 import Resume from './resume/resume';
+import Articles from './articles/articles';
 import {
     HashRouter,
     Routes,
     Route
 } from "react-router-dom";
-import Blog from './blog/blog';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -16,7 +16,7 @@ ReactDOM.render(
         <Routes>
             <Route index element={<Home />} />
             <Route path="/resume" element={<Resume />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/articles" element={<Articles />} />
         </Routes>
     </HashRouter>
   </React.StrictMode>,

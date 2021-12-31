@@ -29,10 +29,10 @@ class MainMenu extends Component {
                 active={activeItem === 'resume'}
                 />
             </Link>
-            <Link to='/blog'>
+            <Link to='/articles'>
                 <Menu.Item
-                name='blog'
-                active={activeItem === 'blog'}
+                name='articles'
+                active={activeItem === 'articles'}
                 />
             </Link>
         </Menu>

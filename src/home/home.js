@@ -142,7 +142,7 @@ class Home extends Component {
             </div>
             <div class="section centered">
                 <span style={{"font-size": "10px"}}>
-                    Kevin Maarek 2020
+                    Kevin Maarek 2022
                 </span>
             </div>
         </div>
