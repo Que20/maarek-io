@@ -14,8 +14,7 @@
     "react-router-dom": "latest",
     "semantic-ui-react": "latest",
     "semantic-ui-css": "latest",
-    "rss-parser": "latest",
-    "axios": "latest"
+    "rss-parser": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
