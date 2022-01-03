@@ -14,7 +14,7 @@ class Articles extends Component {
     
     componentDidMount = async () => {
         const parser = new Parser()
-        const feed = await parser.parseURL('https://dev.to/feed/kevinmaarek')
+        const feed = await parser.parseURL('https://data.maarek.io/kevinmaarek')
         const elems = feed.items.map((item) => {
             let pubDate = item.pubDate.split(' ')
             let date = pubDate[1] + " " + pubDate[2] + " " + pubDate[3]

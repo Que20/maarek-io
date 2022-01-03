@@ -17,7 +17,7 @@ class Home extends Component {
 
     async componentDidMount() {
         const parser = new Parser()
-        const feed = await parser.parseURL('https://dev.to/feed/kevinmaarek')
+        const feed = await parser.parseURL('https://data.maarek.io/kevinmaarek')
         const elems = feed.items.map((item) => {
             return ({title: item.title, link: item.link})
         })
