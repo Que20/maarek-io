@@ -66,7 +66,6 @@ class Resume extends Component {
                             <div className="info">
                                 <div className="real-info">
                                     kevin@maarek.io ✉️ <br />
-                                    +33 6 46 78 13 08 📞 <br />
                                     http://maarek.io/ 🔗 <br />
                                 </div>
                                 Paris, France 📍 <br />
