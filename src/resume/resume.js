@@ -1,10 +1,8 @@
-import 'semantic-ui-css/semantic.min.css';
-
 import React, { Component } from 'react'
-import MainMenu from '../components/menu';
+import MainMenu from '../components/menu/menu';
 import { Button, Icon } from 'semantic-ui-react';
 import './resume.css';
-import 'semantic-ui-css/semantic.min.css';
+// import 'semantic-ui-css/semantic.min.css';
 
 const data = require('./data.json').data;
 

@@ -10,11 +10,6 @@
 .secondary-color {
     background: var(--secondary);
 }
-.header {
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 200px;
-}
 .wave {
     font-size: 50px;
 }

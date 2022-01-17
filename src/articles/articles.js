@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import Parser from 'rss-parser'
-import MainMenu from '../components/menu'
-import 'semantic-ui-css/semantic.min.css'
+import Footer from '../components/footer/footer'
+import MainMenu from '../components/menu/menu'
+import { Card } from 'semantic-ui-react'
 import './articles.css'
 
 
@@ -37,13 +38,16 @@ class Articles extends Component {
                         Most are hosted on my <a href="dev.to">dev.to</a> page.
                     </h3>
                     <br/>
-                    <ul style={{"listStyleType": "none"}}>
+
+                    <Card.Group>
+                    {/* <ul style={{"listStyleType": "none", "marginBlockStart":"0px", "paddingInlineStart": "0px"}}> */}
                     {this.state.articles.map((data, index) => {
                         return (
-                            <li key={index} >
-                                <ul style={{"listStyleType": "none"}}>
-                                    <li> <h3><a href={data.url}>{data.title}</a></h3> </li>
-                                    <li>
+                            <Card fluid key={index} href={data.url}>
+                                <Card.Content>
+                                    <Card.Header>{data.title}</Card.Header>
+                                    <Card.Meta>Added on {data.date}</Card.Meta>
+                                    <Card.Description>
                                         <ul className="tag-list">
                                             {data.tags.map((tag, index) => {
                                                 return (
@@ -53,41 +57,15 @@ class Articles extends Component {
                                                 )
                                             })}
                                         </ul>
-                                    </li>
-                                    <li>Added on {data.date}</li>
-                                </ul>
-                                <br />
-                            </li>
+                                    </Card.Description>
+                                </Card.Content>
+                            </Card>
                         )
                     })}
-                    </ul>
+                    {/* </ul> */}
+                    </Card.Group>
                 </div>
-                <div className="section">
-                    <div className="contact centered">
-                        <div>
-                            <h2>
-                                Come say hi!
-                            </h2>
-                            <a href="mailto:kevin@maarek.io">kevin (at) maarek.io</a><br/><br/>
-                            <p className="icons">
-                                <a href="https://twitter.com/kevinmaarek"><i className="fab fa-twitter"></i></a>
-                                &nbsp; 
-                                <a href="https://www.linkedin.com/in/kevinmaarek/"><i className="fab fa-linkedin"></i></a>
-                                &nbsp; 
-                                <a href="https://github.com/que20/"><i className="fab fa-github"></i></a>
-                                &nbsp; 
-                                <a href="https://www.instagram.com/kevin.maarek/"><i className="fab fa-instagram"></i></a>
-                                &nbsp; 
-                                <a href="https://dev.to/kevinmaarek"><i className="fab fa-dev"></i></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div className="section centered">
-                    <span style={{"fontSize": "10px"}}>
-                        Kevin Maarek 2022
-                    </span>
-                </div>
+                <Footer />
             </div>
         )
     }
