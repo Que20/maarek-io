@@ -23,7 +23,7 @@ class Portfolio extends Component {
         },
         {
             link: 'https://github.com/Que20/homebridge-http-motion-sensor',
-            name: 'HTTP motion sensor Homebridge plugin',
+            name: 'Motion sensor Homebridge plugin',
             description: 'Just a Homebridge plugin that will update a PIR status based on a HTTP request.',
             date: '2020',
             icon: 'js-square'
@@ -57,7 +57,7 @@ class Portfolio extends Component {
                         Note: These are only the projects (still) in porduction, designed for public/external use, and without any form NDA.
                     </h5>
                     <br/>
-                    <Card.Group centered>
+                    <Card.Group itemsPerRow={3} stackable>
                         {this.items.map((item, key) => {
                             return (
                                 <Card key={key} href={item.link} style={{"height":"200px", "textAlign":"left"}}>
