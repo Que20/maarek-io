@@ -60,15 +60,19 @@ class Home extends Component {
             <div class="section secondary-color">
                 <div class="otherStuff">
                     <h2>
-                        Swift but not only...
+                        The one you need
                     </h2>
                     <p>
                         Working on various projects, side-rpojects or in <b>T-Shape</b> environements, I had the opportunity to develop with
-                        many other technologies and plateforms such as <b>React</b>, <b>Go</b> or <b>NodeJS</b> and many more.
+                        many technologies and plateforms such as <b>React</b>, <b>Go</b> or <b>NodeJS</b> and many more.
                     </p>
                     <h3>Curious and interested by nature,</h3>
                     <p>
-                        I have worked on web apps, server backends with REST APIs, and even Dapps on the Ethereum blockchain.
+                        Front end, web apps, Dapp,  mobile native apps, back ends, REST APIs, you name it!
+                        <br/>
+                        Recently, I've been completely absorbed by the Web3 universe.
+                        <br/>
+                        Looking for a dev for your next NFT project? You are in the right place.
                     </p>
                     <br/><br/>
                     <div class="ui three column grid">
