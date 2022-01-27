@@ -35,6 +35,12 @@ class MainMenu extends Component {
                 active={activeItem === 'articles'}
                 />
             </Link>
+            <Link to='/portfolio'>
+                <Menu.Item
+                name='portfolio'
+                active={activeItem === 'portfolio'}
+                />
+            </Link>
         </Menu>
         )
     }
