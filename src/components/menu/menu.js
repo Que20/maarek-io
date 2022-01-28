@@ -15,6 +15,11 @@ class MainMenu extends Component {
     }
 
     contextRef = createRef()
+
+    componentDidMount = () => {
+        const width = this.state.calculations.width
+        this.setState({ menuShown: (width > this.maxWidthDesktop()) })
+    }
         
     handleUpdate = (e, { calculations }) => {
         this.setState({ menuShown: (calculations.width > this.maxWidthDesktop()) })
