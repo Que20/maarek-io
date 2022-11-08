@@ -23,6 +23,18 @@ class Home extends Component {
             return ({title: item.title, link: item.link})
         })
         this.setState({feed: [elems[0], elems[1], elems[2], elems[3]]})
+
+        const observer = new IntersectionObserver((es) => {
+            es.forEach((e) => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('show')
+                } else {
+                    e.target.classList.remove('show')
+                }
+            })
+        })
+        const hidden = document.querySelectorAll('.hidden')
+        hidden.forEach((e) => observer.observe(e))
     }
 
     render() {
@@ -57,8 +69,9 @@ class Home extends Component {
             </div>
             </div>
             <div className="separator waves"> </div>
-            <div class="section secondary-color">
-                <div class="otherStuff">
+            <div className="section secondary-color">
+                <br/><br/>
+                <div className="otherStuff hidden">
                     <h2>
                         The one you need
                     </h2>
@@ -107,8 +120,8 @@ class Home extends Component {
                     </div>
                 </div>
             </div>
-            <div class="section secondary-color">
-                <div class="publications">
+            <div className="section secondary-color">
+                <div className="publications hidden">
                     <h2>
                         Recent Posts
                     </h2>

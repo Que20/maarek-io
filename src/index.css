@@ -34,3 +34,28 @@ code {
     transform: rotate(180deg);
     margin-top: -10px;
 }
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 1s;
+  transition-delay: 200ms;
+}
+
+.show {
+  transition-delay: 200ms;
+  opacity: 1;
+  filter: blur(0);
+}
+
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hidden {
+    transition: none;
+  }
+}
