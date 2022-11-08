@@ -62,7 +62,7 @@ class Portfolio extends Component {
                             return (
                                 <Card key={key} href={item.link} style={{"height":"200px", "textAlign":"left"}}>
                                     <Card.Content>
-                                        <i className={faIcon(item.icon)} style={{"position":"absolute", "right": "10px", "font-size":"30px"}}></i>
+                                        <i className={faIcon(item.icon)} style={{"position":"absolute", "right": "10px", "fontSize":"30px"}}></i>
                                         <Card.Header>{item.name}</Card.Header>
                                         <Card.Meta>{item.date}</Card.Meta>
                                         <Card.Description>
