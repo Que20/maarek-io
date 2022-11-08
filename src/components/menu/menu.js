@@ -1,56 +1,46 @@
-import React, { Component, createRef } from 'react'
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { Menu, Icon, Ref, Visibility } from 'semantic-ui-react';
+import { Menu, Icon } from 'semantic-ui-react';
 import './menu.css'
 
-class MainMenu extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            menuShown: true,
-            calculations: {
-              width: window.innerWidth,
-            },
-          }
+function MainMenu(props) {
+    const maxWidthDesktop = 768
+    const menuRef = useRef();
+    const { activeItem } = props
+
+    const [menuShown, setMenuShown] = useState(window.innerWidth > maxWidthDesktop)
+    const [width, setWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        window.addEventListener("resize", () => {
+            console.log('hello')
+            const w = menuRef.current.clientWidth
+            setMenuShown((w > maxWidthDesktop))
+            setWidth(w)
+        });
+    }, []);
+
+    const toggleMenu = () => {
+        const current = menuShown
+        setMenuShown(!current)
     }
 
-    contextRef = createRef()
-
-    componentDidMount = () => {
-        const width = this.state.calculations.width
-        this.setState({ menuShown: (width > this.maxWidthDesktop()) })
-    }
-        
-    handleUpdate = (e, { calculations }) => {
-        this.setState({ menuShown: (calculations.width > this.maxWidthDesktop()) })
-        this.setState({ calculations })
+    const condition = (test, content) => {
+        return test ? content : null
     }
 
-    toggleMenu = () => {
-        const current = this.state.menuShown
-        this.setState({ menuShown: !current })
-    }
-
-    maxWidthDesktop = () => { return 768 }
-
-    render() {
-        const condition = (test, content) => {
-            return test ? content : null
-        }
-        const { activeItem } = this.props
-        return (
-        <Ref innerRef={this.contextRef}>
-        <Visibility onUpdate={this.handleUpdate}>
+    return (
+        <div ref={menuRef}>
         <Menu secondary stackable>
-            {condition(this.state.calculations.width < this.maxWidthDesktop(), (
-                <Menu.Item active={false} onClick={this.toggleMenu}>
+            {condition(width < maxWidthDesktop, (
+                <Menu.Item active={false} onClick={toggleMenu}>
                     <Icon name='bars' />
                     maarek.io
                 </Menu.Item>
             ))}
-            {condition(this.state.menuShown, (
+            {condition(menuShown, (
                 <>
-                {condition(this.state.calculations.width > this.maxWidthDesktop(), (
+                {condition(width > maxWidthDesktop, (
                     <Link to='/'>
                         <Menu.Item content='maarek.io' active={false}/>
                     </Link>
@@ -82,10 +72,8 @@ class MainMenu extends Component {
                 </>
             ))}
         </Menu>
-        </Visibility>
-        </Ref>
-        )
-    }
+        </div>
+        );
 }
 
 export default MainMenu;
