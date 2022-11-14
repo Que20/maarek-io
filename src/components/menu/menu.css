@@ -1,3 +1,11 @@
 .ui.secondary.menu {
     margin: 20px;
 }
+
+.ui.menu .item.site-title {
+    color:var(--accent) !important;
+}
+
+.ui.menu .item.site-title:hover {
+    background-color: none !important;
+}

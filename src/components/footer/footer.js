@@ -25,7 +25,7 @@ class Footer extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="section centered">
+                <div className="section centered" style={{"padding-bottom": "50px"}}>
                     <span style={{"fontSize": "10px"}}>
                         Kevin Maarek 2022
                     </span>

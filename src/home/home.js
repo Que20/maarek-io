@@ -50,7 +50,7 @@ class Home extends Component {
                         <div className="column">
                             <br />
                             <span className="wave hand-wave">👋</span>
-                            <h1 className="text-primary-color">
+                            <h1 className="text-gradient handwriting-style">
                                 Hi, my name is Kevin
                             </h1>
                             <p>
@@ -60,7 +60,7 @@ class Home extends Component {
                                 Let me develop the app of your dreams 🧚🏻
                             </p>
                             <Link to='/resume'>
-                                <Button content='More about my work and my experience' icon='right arrow' labelPosition='right' />
+                                <Button className='call-to-action' content='More about my work and my experience' icon='right arrow' labelPosition='right' />
                             </Link>
                         </div>
                     </div>
@@ -83,23 +83,25 @@ class Home extends Component {
                         Front end, web apps, Dapp,  mobile native apps, back ends, REST APIs, you name it!
                         <br/>
                         Recently, I've been completely absorbed by the Web3 universe.
-                        <br/>
+                        <br/><br/>
                         Looking for a dev for your next NFT project? You are in the right place.
+                        <br/>
+                        Someone to turn your crossplatform app to a native one for a better user experience? I am here for you.
                     </p>
                     <br/><br/>
                     <div className="ui three column grid">
                     <div className="column center aligned tech">
-                        <i className="react icon techLogo" style={{"color":"#61dafb"}}></i>
+                        <i className="fa-brands fa-react techLogo" style={{"color":"#61dafb", "paddingBottom":"15px"}}></i>
                         <br/>
                         React
                     </div>
                     <div className="column center aligned tech">
-                        <i className="node icon techLogo" style={{"color":"#43853d"}}></i>
+                        <i class="fa-brands fa-swift techLogo" style={{"color":"rgb(223, 70, 52)", "paddingBottom":"15px"}}></i>
                         <br/>
-                        NodeJS
+                        Swift
                     </div>
                     <div className="column center aligned tech">
-                        <i className="ethereum icon techLogo" style={{"color":"rgb(77, 28, 225)"}}></i>
+                        <i className="fa-brands fa-ethereum techLogo" style={{"color":"rgb(77, 28, 225)", "paddingBottom":"15px"}}></i>
                         <br/>
                         Solidity
                     </div>
@@ -107,12 +109,12 @@ class Home extends Component {
                     <br/><br/>
                     <div className="ui two column grid">
                     <div className="column center aligned tech">
-                        <i className="html5 icon techLogo" style={{"color":"rgb(255, 141, 1)"}}></i>
+                        <i className="fa-brands fa-html5 techLogo" style={{"color":"rgb(255, 141, 1)", "paddingBottom":"15px"}}></i>
                         <br/>
                         HTML5
                     </div>
                     <div className="column center aligned tech">
-                        <i className="database icon techLogo" style={{"color":"rgb(29, 143, 122)"}}></i>
+                        <i className="fa-solid fa-database techLogo" style={{"color":"rgb(29, 143, 122)", "paddingBottom":"15px"}}></i>
                         <br/>
                         Different DBMS paradigms
                     </div>  

@@ -33,7 +33,7 @@ function MainMenu(props) {
         <div ref={menuRef}>
         <Menu secondary stackable>
             {condition(width < maxWidthDesktop, (
-                <Menu.Item active={false} onClick={toggleMenu}>
+                <Menu.Item className='site-title' active={false} onClick={toggleMenu}>
                     <Icon name='bars' />
                     maarek.io
                 </Menu.Item>
@@ -42,7 +42,7 @@ function MainMenu(props) {
                 <>
                 {condition(width > maxWidthDesktop, (
                     <Link to='/'>
-                        <Menu.Item content='maarek.io' active={false}/>
+                        <Menu.Item className='site-title' content='maarek.io' active={false}/>
                     </Link>
                 ))}
                 <Link to='/'>

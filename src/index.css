@@ -14,6 +14,7 @@ code {
 :root {
     --primary: #62757B;
     --secondary: rgb(239,239,239);
+    --accent: #0f5870;
 }
 
 .separator {
