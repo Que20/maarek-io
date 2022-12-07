@@ -280,6 +280,12 @@ details > summary:first-of-type {
     }
 }
 @media print {
+    .name {
+        font-size: 28px;
+    }
+    .resume-container {
+        max-width: 100%;
+    }
     .profile-pic {
         width: 60px;
         height: 60px;
@@ -304,5 +310,9 @@ details > summary:first-of-type {
     .newpage {
         padding-top: 30px;
         page-break-before: always;
+    }
+    .current {
+        background-color: #ffdede !important;
+        -webkit-print-color-adjust: exact;
     }
 }

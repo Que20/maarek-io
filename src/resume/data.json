@@ -1,6 +1,44 @@
 {
     "data": [
         {
+            "img":"rss.png",
+            "img_height": 22,
+            "title": "iOS Engineer",
+            "company": "RATP Smart Systems",
+            "contract": "Permanent contract",
+            "dates": {
+                "from": "2022",
+                "to": "now"
+            },
+            "location": "Paris, France",
+            "mark_current": true,
+            "missions": [
+                {
+                    "task": "Development and maintenance of the Bonjour RATP iOS products and apps.",
+                    "subtasks": [
+                        "Working with other developers and designers to develop product+tech oriented features for a smart mobility application.",
+                        "Building an iOS app with a complex and modular architecture using the Swift Package Manager.",
+                        "Working in a very high security standard environment.",
+                        "Developping protocols to handle multiple mobility provider in a mobility as a service (MaaS) ecosystem."
+                    ]
+                }, {
+                    "task":"Development of a modern design system.",
+                    "subtasks": [
+                        "Working hand in hand with a design team to establish a high granularity list of design elements.",
+                        "Create an exhaustive set of design tokens.",
+                        "Development of an iOS package, fed by the design tokens to generate a components library"
+                    ]
+                },{
+                    "task": "Working with scrum and agile standards.",
+                    "subtasks": []
+                }, {
+                    "task": "Working in multidisciplinary teams.",
+                    "subtasks": []
+                }
+            ],
+            "tags":["iOS", "Swift", "Jira", "GitLab CI"]
+        },
+        {
             "img": "ada.png",
             "img_height": 18,
             "title": "Teacher",
@@ -41,10 +79,10 @@
             "contract": "Permanent contract",
             "dates": {
                 "from": "2019",
-                "to": "now"
+                "to": "2022"
             },
             "location": "Paris, France",
-            "mark_current": true,
+            "mark_current": false,
             "intro": "",
             "missions": [
                 {
