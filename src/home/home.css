@@ -13,8 +13,8 @@
     -moz-text-fill-color: transparent;
 }
 .handwriting-style {
-    font-family: 'Gloria Hallelujah';
-    padding-bottom: 5px;
+    /* font-family: 'Gloria Hallelujah'; */
+    /* padding-bottom: 5px; */
 }
 .primary-color {
     background: var(--primary);
