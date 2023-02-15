@@ -8,7 +8,7 @@ const data = require('./data.json').data;
 
 class Resume extends Component {
     download = () => {
-        window.print()
+        // window.print()
     }
 
     render() {
@@ -60,7 +60,9 @@ class Resume extends Component {
                                 <div className="no-print">
                                     Last update : Oct. 27 2021
                                     <br />
-                                    <button onClick={this.download}>Download a pdf version of my resume</button>
+                                    <a href="KevinMAAREK.pdf">
+                                        <button onClick={this.download}>Download a pdf version of my resume</button>
+                                    </a>
                                 </div>
                             </div>
                             <div className="info">
