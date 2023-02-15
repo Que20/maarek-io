@@ -69,6 +69,12 @@ function MainMenu(props) {
                     active={activeItem === 'portfolio'}
                     />
                 </Link>
+                <a href='https://maarek.myportfolio.com/'>
+                    <Menu.Item
+                    name='photography'
+                    active={false}
+                    />
+                </a>
                 </>
             ))}
         </Menu>
