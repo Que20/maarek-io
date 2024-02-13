@@ -240,7 +240,7 @@ class Resume extends Component {
                     <li>I cook a great shakshuka, the famous Mediterranean meal. 🥘</li>
                 </ul>
             </div>
-            <h6 className="copyright no-print">Copyright © 2021 Kevin MAAREK</h6>
+            <h6 className="copyright no-print">Copyright © {new Date().getFullYear()} Kevin MAAREK</h6>
             </div>
         )
     }

@@ -27,7 +27,7 @@ class Footer extends Component {
                 </div>
                 <div className="section centered" style={{"padding-bottom": "50px"}}>
                     <span style={{"fontSize": "10px"}}>
-                        Kevin Maarek 2022
+                        Kevin Maarek {new Date().getFullYear()}
                     </span>
                 </div>
                 </>
