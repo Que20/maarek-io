@@ -14,27 +14,41 @@
             "mark_current": true,
             "missions": [
                 {
-                    "task": "Development and maintenance of the Bonjour RATP iOS products and apps.",
-                    "subtasks": [
-                        "Working with other developers and designers to develop product+tech oriented features for a smart mobility application.",
-                        "Building an iOS app with a complex and modular architecture using the Swift Package Manager.",
-                        "Working in a very high security standard environment.",
-                        "Developping protocols to handle multiple mobility provider in a mobility as a service (MaaS) ecosystem."
-                    ]
-                }, {
-                    "task":"Development of a modern design system.",
-                    "subtasks": [
-                        "Working hand in hand with a design team to establish a high granularity list of design elements.",
-                        "Create an exhaustive set of design tokens.",
-                        "Development of an iOS package, fed by the design tokens to generate a components library"
-                    ]
-                },{
-                    "task": "Working with scrum and agile standards.",
+                    "task": "Development and continuous enhancement of the Bonjour RATP iOS products and applications, playing a pivotal role in revolutionizing smart mobility solutions in Paris, France.",
                     "subtasks": []
-                }, {
-                    "task": "Working in multidisciplinary teams.",
+                  },
+                  {
+                    "task": "Collaborated closely with cross-functional teams comprising developers and designers to conceptualize and implement innovative features aligning with product and technological objectives within the smart mobility application domain.",
                     "subtasks": []
-                }
+                  },
+                  {
+                    "task": "Engineered an iOS application with a sophisticated and modular architecture, leveraging the Swift Package Manager to ensure scalability and maintainability of the codebase.",
+                    "subtasks": []
+                  },
+                  {
+                    "task": "Operated within a high-security environment, adhering to stringent standards to safeguard sensitive data and ensure the integrity of the system.",
+                    "subtasks": []
+                  },
+                  {
+                    "task": "Formulated robust protocols to facilitate seamless integration and interoperability of diverse mobility providers within a Mobility as a Service (MaaS) ecosystem, enhancing user experience and accessibility.",
+                    "subtasks": []
+                  },
+                  {
+                    "task": "Drove the establishment and implementation of a modern design system, collaborating closely with the design team to define an extensive catalog of design elements and meticulously crafting design tokens.",
+                    "subtasks": []
+                  },
+                  {
+                    "task": "Developed an iOS package utilizing the design tokens, enabling the automated generation of a comprehensive components library, thereby streamlining the UI development process.",
+                    "subtasks": []
+                  },
+                  {
+                    "task": "Adhered to agile methodologies and scrum practices, fostering a collaborative and adaptive work environment conducive to rapid iteration and innovation.",
+                    "subtasks": []
+                  },
+                  {
+                    "task": "Thrived in multidisciplinary teams, actively contributing insights and expertise to cross-functional initiatives aimed at delivering impactful solutions.",
+                    "subtasks": []
+                  }
             ],
             "tags":["iOS", "Swift", "Jira", "GitLab CI"]
         },

@@ -58,7 +58,7 @@ class Resume extends Component {
                         <div className="column">
                             <div className="last-update">
                                 <div className="no-print">
-                                    Last update : Oct. 27 2021
+                                    Last update : Oct. 27 2022
                                     <br />
                                     <a href="KevinMAAREK.pdf">
                                         <button onClick={this.download}>Download a pdf version of my resume</button>
@@ -129,60 +129,111 @@ class Resume extends Component {
                 <br />
 
                 <h2 className="section">Skills 💪</h2>
-
-                <div className="skills-field">
-                    Programming :
-                </div>
-                <div className="skills">
-                    <p>
-                        Good expertise level of the most used programming paradigms in Swift : object oriented and protocol oriented. <br />
-                        Strong knowledge in scripting programming and usage of their interpreter. <br />
-                        Good knowledge in functional and procedural. <br />
-                        → Swift, Objective-C, Java, Javascript, Go, C, Bash, Python.
-                    </p>
-                </div>
-
-                <div className="skill">
-                    <div className="skills-field">
-                        Design Patterns :
-                    </div>
-                    <div className="skills">
-                        <p>
-                            → Creational : Singleton <br />
-                            → Structural : MVC, MVVM, VIPER <br />
-                            → Behavioral : Observer (RX)
-                        </p>
-                    </div>
-                </div>
-
-                <div className="skill">
-                    <div className="skills-field">
-                        Frameworks :
-                    </div>
-                    <div className="skills">
-                        <p>
-                            Strong knowledge in the Apple ecosystem OS (iOS, iPadOS, WatchOS and tvOS) frameworks<br />
-                            → CocaTouch+UIKit/SwiftUI <br />
-                            <br />
-
-                            Good understanding of OpenCV's Image Processing framework<br />
-
-                            Other GUI frameworks such as SDL for C, pyQt and Tk for Python.
-                        </p>
-                    </div>
-                </div>
                 
-                <div className="skill">
-                    <div className="skills-field">
-                        DBMS :
-                    </div>
-                    <div className="skills">
-                        <p>
-                            NoSQL (with MongoDB) and SQL (with MySQL, PostgreSQL). <br />
-                            CoreData for Apple systems.
-                        </p>
-                    </div>
+                <div class="skill">
+                <div class="skills-field">
+                    Programming Languages
                 </div>
+                <div class="skills">
+                    <ul>
+                        <li>Swift, Objective-C</li>
+                        <li>Good understanding in Go, JS and Python</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skills-field">
+                    iOS Frameworks
+                </div>
+                <div class="skills">
+                    <ul>
+                        <li>UI: UIKit, SwiftUI</li>
+                        <li>Data: Core Data</li>
+                        <li>Other: ARKit, HealthKit, MapKit, WatchKit, StoreKit</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skills-field">
+                    Development Tools
+                </div>
+                <div class="skills">
+                    <ul>
+                        <li>IDE: Xcode, VSCode, VIM</li>
+                        <li>Dependancies: CocoaPods, Carthage, Swift Package Manager</li>
+                        <li>Performance Optimization: Instruments Profiling, Memory Management</li>
+                        <li>DBMS: Graph (CoreData), SQL (with MySQL, PostgreSQL), NoSQL (with MongoDB)</li>
+                        <li>CI/CD: Jenkins, Fastlane, Bitrise</li>
+                        <li>Accessibility: Adaptive Layout, VoiceOver, Dynamic Types</li>
+                        <li>Git</li>
+                        <li>TestFlight</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skills-field">
+                    Design Patterns & Architectural Paradigms
+                </div>
+                <div class="skills">
+                    <ul>
+                        <li>Swift Composable Architecture</li>
+                        <li>Model-View-Controller (MVC)</li>
+                        <li>Model-View-ViewModel (MVVM and MVVM-C)</li>
+                        <li>Model-View-Presenter (MVP)</li>
+                        <li>Clean Architecture</li>
+                        <li>Reactive Programming</li>
+                        <li>Singleton</li>
+                        <li>Observer</li>
+                        <li>Delegate</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skills-field">
+                    Networking
+                </div>
+                <div class="skills">
+                    <ul>
+                        <li>URLSession, Alamofire</li>
+                        <li>REST, WebSockets, SSE</li>
+                        <li>GraphQL</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="skill">
+                <div class="skills-field">
+                    Testing
+                </div>
+                <div class="skills">
+                    <ul>
+                        <li>XCTest</li>
+                        <li>UI Testing</li>
+                        <li>Unit Testing</li>
+                        <li>Screenshot Testing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skills-field">
+                    Other Skills
+                </div>
+                <div class="skills">
+                    <ul>
+                        <li>Agile Methodologies (Scrum, Kanban)</li>
+                        <li>Problem-Solving Skills</li>
+                        <li>Communication Skills</li>
+                        <li>Team Collaboration</li>
+                        <li>Project Management</li>
+                    </ul>
+                </div>
+            </div>
+
 
                 <br />
                 <h2 className="section">Education 🎓</h2>
