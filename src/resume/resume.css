@@ -109,7 +109,7 @@ details > summary:first-of-type {
     margin-left: 30px;
 }
 .job-title {
-    color: gray;
+    color: rgb(92, 92, 92);
     font-weight: bold;
 }
 .company-name {
