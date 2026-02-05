@@ -1,6 +1,46 @@
 {
     "data": [
         {
+            "img":"zelty.png",
+            "img_height": 22,
+            "title": "Expert iPadOS Engineer",
+            "company": "Zelty",
+            "contract": "Temporary contract",
+            "dates": {
+                "from": "2025",
+                "to": "2026"
+            },
+            "location": "Paris, France",
+            "mark_current": false,
+            "missions": [
+                  {
+                    "task": "Contributed to the development and maintenance of Zelty’s production-grade iPadOS applications used daily in professional restaurant environments, with a strong focus on reliability, performance, and user experience.",
+                    "subtasks": []
+                  },
+                  {
+                    "task": "Designed and developed internal tools and applications to support operational teams and improve internal workflows, accelerating delivery and reducing friction across the organization.",
+                    "subtasks": []
+                  },
+                  {
+                    "task": "Implemented and maintained network-level communication layers, including TCP-based and peer-to-peer (P2P) protocols, enabling inter-application communication in constrained or offline-friendly environments.",
+                    "subtasks": []
+                  },
+                  {
+                    "task": "Worked extensively on concurrency and thread safety challenges, improving application stability and educating the team on best practices around Swift concurrency and multithreaded architectures.",
+                    "subtasks": []
+                  },
+                  {
+                    "task": "Participated in continuous improvement of engineering processes, contributing to better code quality, technical decision-making, and sustainable development practices.",
+                    "subtasks": []
+                  },
+                  {
+                    "task": "mentoring engineers and sharing expertise on advanced iOS/iPadOS topics, including modern software architecture",
+                    "subtasks": []
+                  }
+            ],
+            "tags":["iPadOS", "Swift", "Concurrency", "Mentoring"]
+        },
+        {
             "img":"rss.png",
             "img_height": 22,
             "title": "iOS Engineer",
@@ -8,10 +48,10 @@
             "contract": "Permanent contract",
             "dates": {
                 "from": "2022",
-                "to": "now"
+                "to": "2025"
             },
             "location": "Paris, France",
-            "mark_current": true,
+            "mark_current": false,
             "missions": [
                 {
                     "task": "Development and continuous enhancement of the Bonjour RATP iOS products and applications, playing a pivotal role in revolutionizing smart mobility solutions in Paris, France.",
@@ -60,10 +100,10 @@
             "contract": "Freelance",
             "dates": {
                 "from": "2021",
-                "to": "now"
+                "to": "2025"
             },
             "location": "Paris, France",
-            "mark_current": true,
+            "mark_current": false,
             "intro": "Ada is the first coding school in Europe with a feminist and inclusive culture, open to all profiles. Their education system is based on the Motessori theory.",
             "missions": [
                 {
@@ -71,7 +111,7 @@
                     "subtasks": []
                 },
                 {
-                    "task": "Creation of educational content.",
+                    "task": "Creation of educational content and courses syllabus.",
                     "subtasks": []
                 },
                 {
@@ -83,7 +123,7 @@
                     "subtasks": []
                 }
             ],
-            "tags":[]
+            "tags":["Teaching", "Mentoring", "Fullstack", "Syllabus"]
         },
         {
             "img": "fbx.png",
